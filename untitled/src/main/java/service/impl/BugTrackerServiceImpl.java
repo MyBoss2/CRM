@@ -476,4 +476,8 @@ public class BugTrackerServiceImpl implements BugTrackerService {
         return bugTrackerMapper.queryTeamIdByUserId(currentUserId);
     }
 
+    public void test(){
+        System.out.println("测试版本");
+    }
+
 }
