@@ -17,6 +17,10 @@ public class CarServiceImpl implements CarService {
 
     @Override
     public void insertCar(Car car) {
+
         System.out.println("测试新增");
+        System.out.println("测试提交");
+
+
     }
 }
