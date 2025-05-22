@@ -13,6 +13,8 @@ public class Persion {
 
     private String age;
 
+    private String desc;
+
     public Long getId() {
         return id;
     }
@@ -43,5 +45,13 @@ public class Persion {
 
     public void setAge(String age) {
         this.age = age;
+    }
+
+    public String getDesc() {
+        return desc;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
     }
 }

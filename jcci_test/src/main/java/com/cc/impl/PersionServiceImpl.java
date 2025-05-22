@@ -19,6 +19,7 @@ public class PersionServiceImpl implements PersionService {
         persion.setId(id);
         persion.setAge("25");
         persion.setName("张三");
+        persion.setDesc("成功啊");
         System.out.println("测试修改");
         return 0;
     }
