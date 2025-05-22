@@ -17,6 +17,7 @@ public class PersionServiceImpl implements PersionService {
     public int updateBugTracker(Long id) {
         Persion persion = new Persion();
         persion.setId(id);
+        persion.setAge("25");
         System.out.println("测试修改");
         return 0;
     }
